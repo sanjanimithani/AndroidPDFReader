@@ -1,5 +1,5 @@
 Sanjani Mithani
-20782944 smithani
+
 kotlinc-jvm 1.8.20
 SDK: jbr-17 17.0.6
 macOS Ventura 13.3
@@ -24,8 +24,7 @@ Zooming:
 Implemented using multitouch/2 pinch. On Mac, press Ctrl to see the two pointers and continue to hold to pinch in/out. 
 
 Pan and Zoom on Orientation Changes: 
-As per Piazza post @408: https://piazza.com/class/lh0ol1x76py6gm/post/408, the zoom and pan mode is reset when the 
-orientation is altered. 
+The zoom and pan mode is reset when the orientation is altered. 
 
 Pan and Zoom on Page Flip: 
 Upon switching pages, the pan and zoom is also reset to ensure the entire page is visible to the user. 
